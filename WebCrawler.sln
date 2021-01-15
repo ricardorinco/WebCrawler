@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler.ConsoleApp", "src\WebCrawler.ConsoleApp\WebCrawler.ConsoleApp.csproj", "{BAB648EC-860D-479A-B5A6-2CB0BB20792E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCrawler.ConsoleApp", "src\WebCrawler.ConsoleApp\WebCrawler.ConsoleApp.csproj", "{BAB648EC-860D-479A-B5A6-2CB0BB20792E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14F7257F-A175-4241-A185-801160792DA8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{CCDF8BBC-C44E-4D39-9085-20E81B3E5BEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sentences", "sentences", "{0DC74DED-598F-4E8F-8E48-16D851172EA5}"
+	ProjectSection(SolutionItems) = preProject
+		resources\sentences\bttf-sentences.json = resources\sentences\bttf-sentences.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +30,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCDF8BBC-C44E-4D39-9085-20E81B3E5BEA} = {14F7257F-A175-4241-A185-801160792DA8}
+		{0DC74DED-598F-4E8F-8E48-16D851172EA5} = {CCDF8BBC-C44E-4D39-9085-20E81B3E5BEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F366A466-C5C7-4CD4-BD97-E3CD8B809B39}
